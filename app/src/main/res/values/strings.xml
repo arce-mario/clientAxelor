@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Axelor-ERP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_products">Productos</string>
+    <string name="menu_providers">Proveedores</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!--LOGIN-->
+    <string name="edit_text_user_hint">Usuario o correo electrónico</string>
+    <string name="edit_text_password_hint">Contraseña</string>
+    <string name="button_login_title">Acceder</string>
+    <string name="edit_text_title_message">Axelor mobile, proyecto académico UCA</string>
+    <string name="button_title_sign_up">Registrarse</string>
+    <string name="image_view_content_description">logo de la aplicación</string>
+    <string name="login_user_message">Iniciando sesión &#8230;</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="home_second">Inicio segundo</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="prompt_email">Nombre de usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="welcome">"¡Bienvenido! "</string>
+    <string name="invalid_username">No es un nombre de usuario válido</string>
+    <string name="invalid_password">La contraseña debe tener más de cuatro caracteres</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!--Card view-->
+    <string name="forecast_default_info">Calculando…</string>
+    <!--General-->
+    <string name="error_message">Axelor-ERP ERROR</string>
+    <string name="error_message_api">Axelor-ERP ERROR API</string>
+    <string name="message">Axelor-ERP msj</string>
+    <string name="message_code_ok">Solicitud realizada con éxito</string>
+    <string name="message_bad_request">el servidor no va a procesar su petición por un error del sistema.</string>
+    <string name="message_forbidden">problemas de conexión, intente nuevamente.</string>
+    <string name="message_not_found">el recurso de la solicitud actual, no se ha podido encontrar</string>
+    <string name="message_request_timeout">el tiempo de espera se ha agotado</string>
+    <string name="message_expectation_failed">error interno de la aplicación, ocurrio un error inesperado.</string>
+    <string name="message_internal_server_error">se ha producido un error desconocido al procesar la solicitud.</string>
+    <string name="message_network_connection_error">error de conexión, no se puede concretar la respuesta.</string>
+    <string name="message_login_failed">Error, usuario o contraseña incorrecto.</string>
+    <string name="message_api_format">%d, %s</string>
+
+    <!--QUERY-->
+    <string name="query_search_api">{\"offset\":%d,\"limit\":%d,\"fields\":%s,\"data\":{\"_domain\":\"self.%s like :%s\",\"_domainContext\":{\"%s\":\"%s\"},\"_archived\":true}}</string>
+    <string name="forecast_information_body">{\"Inputs\":{\"input1\":{\"ColumnNames\":%s,\"Values\":[%s]}}}</string>
+    <!--AZURE WEB SERVICE-->
+    <string name="access_token">giYgrMANg/3JsDQGiverFbuHg/TBvzmIHWor8FMAT5taXMkMMK5TPM11OZdnWQABzY/HNQ6tS9JEcjyDpr7jDA==</string>
+</resources>
